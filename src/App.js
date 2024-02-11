@@ -11,7 +11,6 @@ function App() {
       <Nav />
       <Bio />
       <Projects />
-
       <Contact />
     </main>
   );
