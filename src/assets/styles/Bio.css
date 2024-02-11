@@ -1,0 +1,28 @@
+
+
+
+.img img{
+    width: 100%;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+  gap: 2rem;
+       margin: 0 5%;
+}
+.img{
+    grid-column: 1/span 6;
+
+}
+.bio-text{
+    grid-column: 7 /span 6;
+}
+.bio-title{
+    text-align: center;
+    margin-bottom: -20px;
+
+    @media screen and (max-width:650px) {
+        font-size: 1rem;
+    }
+}

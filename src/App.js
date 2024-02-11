@@ -3,19 +3,15 @@ import "./App.css";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Nav from "./components/Nav";
+import Bio from "./components/Bio";
 
 function App() {
   return (
     <main>
       <Nav />
+      <Bio />
       <Projects />
-      <Projects />
-      <Projects />
-      <Projects />
-      <Projects />
-      <Projects />
-      <Projects /> <Projects /> <Projects /> <Projects /> <Projects />{" "}
-      <Projects /> <Projects /> <Projects />
+
       <Contact />
     </main>
   );

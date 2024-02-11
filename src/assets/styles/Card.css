@@ -1,0 +1,35 @@
+/* .card, .card img{
+    width: 100%;
+    border: solid 1px blue;
+    border-radius: 4%;
+    transition: transform 1s;
+    
+}
+/* .card p, .card h2{
+    padding: 10px;
+}
+.card p{
+    margin-top: -2rem;
+    
+}
+.card h2{
+    margin-top: -1rem ;
+} 
+.card:hover{
+    transform: translate3d(5px, -5px, 11110px)
+
+}
+ */
+ .card, .card img{
+    width: 100%;
+    border: solid 1px blue;
+    border-radius: 4%;
+    transition: transform 1s;
+}
+.card:hover{
+    transform: translate3d(5px, -5px, 11110px)
+
+}
+
+
+
